@@ -1,0 +1,17 @@
+{
+  "name": "autenticacao-nodejs-mysql",
+  "version": "1.0.0",
+  "description": "Material didático: autenticação com Node.js, Express, EJS e MySQL (SQL puro, sem ORM)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mysql2": "^3.10.0"
+  }
+}
